@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "93RTWfsAxnJOvl9xYjXgVVmtHzIGGkXYBtdbs2DNm9k=",
+  "Source": "DoZero",
+  "BasePath": "_content/DoZero",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DoZero/wwwroot",
+      "Source": "DoZero",
+      "ContentRoot": "/App/wwwroot/",
+      "BasePath": "_content/DoZero",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/App/wwwroot/index.html",
+      "SourceId": "DoZero",
+      "SourceType": "Discovered",
+      "ContentRoot": "/App/wwwroot/",
+      "BasePath": "_content/DoZero",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ]
+}
