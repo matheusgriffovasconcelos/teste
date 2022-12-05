@@ -1,14 +1,11 @@
 version: '3.9'
 
 services:
-  app:
+  dozero:
     build: .
-    container_name: app_dotnet2
     ports:
-      - 5000:5000
-      - 5001:5001
-    volumes:
-      - ./:/App
+      - "5001:5001"
+      - "8081:80"
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       DOTNET_GENERATE_ASPNET_CERTIFICATE: "true"
